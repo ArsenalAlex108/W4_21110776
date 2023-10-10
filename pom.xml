@@ -2,10 +2,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>AnhKhoaPham</groupId>
-    <artifactId>W4_21110776</artifactId>
+    <artifactId>EmailListServlet</artifactId>
     <version>0.1-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>W4_21110776-0.1-SNAPSHOT</name>
+    <name>EmailListServlet</name>
     
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -22,6 +22,12 @@
             <artifactId>jakarta.jakartaee-api</artifactId>
             <version>${jakartaee}</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-all</artifactId>
+            <version>2.4.16</version>
+            <type>jar</type>
         </dependency>
     </dependencies>
     
