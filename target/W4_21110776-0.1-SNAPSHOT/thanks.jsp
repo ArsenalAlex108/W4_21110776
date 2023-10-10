@@ -11,6 +11,8 @@
         <meta charset="utf-8">
         <title>Murach's Java Servlets and JSP</title>
         <link rel="stylesheet" href="styles/main.css" type="text/css"/>
+        
+        <%@include file="header.html"%>
     </head>
     <body>
         <h1>Thanks for joining our email list</h1>
@@ -36,4 +38,8 @@
             <input type="hidden" name="action" value="join"> <input type="submit" value="Return">
         </form>
     </body>
+    
+    <footer>
+        <%@include file="footer.jsp"%>
+    </footer>
 </html>

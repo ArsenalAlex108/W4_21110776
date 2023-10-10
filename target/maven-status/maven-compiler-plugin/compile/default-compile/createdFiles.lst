@@ -1,8 +1,9 @@
 Business\User.class
+Email\TestServlet.class
 Business\UserPreferences$mailingChoice.class
-anhkhoapham\w4_21110776_bak\resources\JakartaEE10Resource.class
+anhkhoapham\w4_21110776\resources\JakartaEE10Resource.class
 Business\UserInfo.class
+anhkhoapham\w4_21110776\JakartaRestConfiguration.class
 Business\UserPreferences$HowDidYouHearAboutUs.class
 Business\UserPreferences.class
 Email\EmailListServlet.class
-anhkhoapham\w4_21110776_bak\JakartaRestConfiguration.class
