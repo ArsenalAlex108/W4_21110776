@@ -8,6 +8,7 @@
         <servlet-name>TestServlet</servlet-name>
         <servlet-class>Email.TestServlet</servlet-class>
     </servlet>
+    
     <session-config>
         <session-timeout>30</session-timeout>
     </session-config>
