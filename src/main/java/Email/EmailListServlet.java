@@ -23,7 +23,7 @@ import java.util.logging.Logger;
  * @author Khoapa
  */
 
-@WebServlet("/emailList")
+@WebServlet(name="EmailList", urlPatterns={"/emailList"})
 public final class EmailListServlet extends HttpServlet {
 
     private static final Logger logger = Logger.getGlobal();
